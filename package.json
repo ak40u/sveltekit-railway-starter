@@ -5,7 +5,9 @@
   "type": "module",
   "description": "SvelteKit 2 starter for Railway",
   "license": "MIT",
-  "engines": { "node": ">=24" },
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
