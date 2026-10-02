@@ -1,6 +1,6 @@
 # SvelteKit starter for Railway
 
-SvelteKit 2 on Svelte 5, server-rendered by `adapter-node`.
+SvelteKit 3 on Svelte 5, server-rendered by `adapter-node`.
 
 ## Why this exists
 
@@ -22,7 +22,7 @@ Nothing is missing that you cannot add in a minute: `npx sv add tailwindcss`,
 |------|---------------|
 | `src/routes/+page.svelte` | The page, with a Svelte 5 rune for state |
 | `src/routes/health/+server.ts` | `/health` as a route, so the check exercises the server |
-| `svelte.config.js` | `adapter-node` — a plain Node server in `build/` |
+| `vite.config.ts` | SvelteKit 3 is configured here, not in `svelte.config.js`: `adapter-node` — a plain Node server in `build/` |
 | `railway.json` | Health check, restart policy |
 | `package-lock.json` | Committed, audited clean at HIGH |
 
